@@ -31,10 +31,39 @@
             text-align: center;
             font-size: 22px;
         }
+        #menu ul {
+                    background: #1F568B;
+                    list-style-type: none;
+                    text-align: center;
+                }
+        #menu li {
+                    color: #f1f1f1;
+                    display: inline-block;
+                    width: 140px;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-left: -5px;
+                }
+        #menu a {
+                    text-decoration: none;
+                    color: #fff;
+                    display: block;
+                }
+        #menu a:hover {
+                    background: #F1F1F1;
+                    color: #333;
+                }
     </style>
     <title>Super Cars</title>
 </head>
 <body>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html" onclick="toggle()">Main</a></li>
+            <li><a href="Luxurycar.html" onclick="toggle()"><span>Luxury Cars</span></a></li>
+            <li><a href="Ordinarycar.html" onclick="toggle()"><span>Ordinary Cars</span></a></li>
+        </ul>
+    </div>
     <h1>Super Cars</h1>
     <p>A supercar is a loosely defined description of certain high-performance street-legal sports car. Since the 2000s or 2010s, the term hypercar has come into use for the highest performing supercars.</p>
     <p>Super Cars are the car for somebody like high speed and they</p>
@@ -57,10 +86,5 @@
     <p>Automobiles Ettore Bugatti was a French car manufacturer of high-performance automobiles, founded in 1909 in the then-German city of Molsheim, Alsace by the Italian-born industrial designer Ettore Bugatti. 
        The cars were known for their design beauty and for their many race victories.</p>
 
-    <ul>
-        <li><a href="index.html" onclick="toggle()">Main</a></li>
-        <li><a href="Luxurycar.html" onclick="toggle()"><span>Luxury Cars</span></a></li>
-        <li><a href="Ordinarycar.html" onclick="toggle()"><span>Ordinary Cars</span></a></li>
-    </ul>
 </body>
 </html>
