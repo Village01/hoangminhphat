@@ -31,12 +31,44 @@
             text-align: center;
             font-size: 22px;
         }
+         * {
+             margin: 0;
+             padding: 0;
+        } 
+        #menu ul {
+            background: #1f568b;
+            list-style-type: disc;
+            text-align: center;
+        }
+        #menu li{
+            color: #f1f1f1;
+            display: inline-block;
+            width: 140px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: -5px;
+        }
+        #menu a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+        #menu a:hover {
+                    background: #F1F1F1;
+                    color: #333;
+                }
     </style>
     <title>Luxury Cars</title>
 </head>
 <body>
+    <div id="menu">
+        <ul>
+        <li><a href="index.html" onclick="toggle()">Main</a></li>
+        <li><a href="Supercar.html" onclick="toggle()"><span>Super Cars</span></a></li>
+        <li><a href="Ordinarycar.html" onclick="toggle()"><span>Ordinary Cars</span></a></li>
+    </ul>
+    </div>
     <h1>Luxury Cars</h1>
-    <p></p>
 
     <h2>Audi</h2>
     <img src="https://wallpaperaccess.com/full/540880.jpg" alt="" width="1440" height="800">
@@ -56,10 +88,6 @@
         seller of premium vehicles in the world, having sold 2.31 million passenger cars.</p>
     <p>Mercedes-Benz origins' come from Daimler-Motoren-Gesellschaft's 1901 Mercedes and Karl Benz's 1886 Benz Patent-Motorwagen, which is widely regarded as the first gasoline-powered automobile. The slogan for the brand is "the best or nothing".</p>
 
-    <ul>
-        <li><a href="index.html" onclick="toggle()">Main</a></li>
-        <li><a href="Supercar.html" onclick="toggle()"><span>Super Cars</span></a></li>
-        <li><a href="Ordinarycar.html" onclick="toggle()"><span>Ordinary Cars</span></a></li>
-    </ul>
+    
 </body>
 </html>
