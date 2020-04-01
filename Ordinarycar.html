@@ -31,12 +31,40 @@
             text-align: center;
             font-size: 22px;
         }
+        #menu ul {
+                    background: #1F568B;
+                    list-style-type: none;
+                    text-align: center;
+                }
+        #menu li {
+                    color: #f1f1f1;
+                    display: inline-block;
+                    width: 140px;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-left: -5px;
+                }
+        #menu a {
+                    text-decoration: none;
+                    color: #fff;
+                    display: block;
+                }
+        #menu a:hover {
+                    background: #F1F1F1;
+                    color: #333;
+                }
     </style>
     <title>Ordinary Cars</title>
 </head>
 <body>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html" onclick="toggle()">Main</a></li>
+            <li><a href="Supercar.html" onclick="toggle()"><span>Super Cars</span></a></li>
+            <li><a href="Luxurycar.html" onclick="toggle()"><span>Luxury Cars</span></a></li>
+        </ul>
+    </div>
     <h1>Ordinary Cars</h1>
-
 
     <h2>Honda</h2>
     <img src="https://www.hdcarwallpapers.com/walls/honda_civic_hatchback_2019_4k_2-HD.jpg" alt="" width="1440" height="800">
@@ -62,10 +90,5 @@
         across the globe. Toyota is also a market leader in hydrogen fuel-cell vehicles. Cumulative global sales of Toyota and Lexus hybrid passenger car models achieved 
         the 10 million milestone in January 2017. Its Prius family is the world's top-selling hybrid nameplate with over 6 million units sold worldwide as of January 2017</p>
 
-    <ul>
-        <li><a href="index.html" onclick="toggle()">Main</a></li>
-        <li><a href="Supercar.html" onclick="toggle()"><span>Super Cars</span></a></li>
-        <li><a href="Luxurycar.html" onclick="toggle()"><span>Luxury Cars</span></a></li>
-    </ul>
 </body>
 </html>
